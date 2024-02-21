@@ -1,1 +1,25 @@
+# farenhite 01
+def celsius_to_fahrenheit(celsius):
+    """
+    Convert temperature from Celsius to Fahrenheit.
+
+    Parameters:
+    - celsius: Temperature in Celsius.
+
+    Returns:
+    - fahrenheit: Temperature in Fahrenheit (rounded to the nearest integer).
+    """
+    fahrenheit = (celsius * 9/5) + 32
+    return round(fahrenheit)
+
+# Example usage:
+if __name__ == "__main__":
+    # Example temperature in Celsius
+    celsius_temperature = 25
+
+    # Convert Celsius to Fahrenheit
+    fahrenheit_temperature = celsius_to_fahrenheit(celsius_temperature)
+
+    # Print the result
+    print(f"{celsius_temperature} degrees Celsius is approximately {fahrenheit_temperature} degrees Fahrenheit.")
 
