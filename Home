@@ -1,4 +1,4 @@
-# farenhite 70-1
+# farenhite 70
 def celsius_to_fahrenheit(celsius):
     """
     Convert temperature from Celsius to Fahrenheit.
